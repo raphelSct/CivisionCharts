@@ -11,7 +11,7 @@ interface DataItem {
   saison: string;
   prix: number;
   niveau: string;
-  [key: string]: any; 
+  [key: string]: string | number | boolean; 
 }
 
 export default function Home() {
